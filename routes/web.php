@@ -21,6 +21,7 @@ Route::get('/offer', 'Frontend\pagesController@todayoffer')->name('offer');
 | Product Routes
 | All the route for our product for frontend
 */
+
 Route::group(['prefix'=>'products'], function(){
 
 		// Category Route
